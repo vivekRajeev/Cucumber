@@ -1,0 +1,47 @@
+# Created at 2022-08-27T22:52:36.432
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created at 2022-08-27T22:52:37.996
+Unexpected IOException with stream: Aug 27, 2022 10:52:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+
+
+# Created at 2022-08-27T22:52:38.137
+Unexpected IOException with stream: Aug 27, 2022 10:52:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 104, so returning the closest version found: 102
+
+
+# Created at 2022-08-27T22:52:38.141
+Unexpected IOException with stream: Aug 27, 2022 10:52:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 104 of 102
+
+
+# Created at 2022-08-27T22:52:38.576
+Unexpected IOException with stream: [32m[1m?????????????????????????????????????????????????????????????????????????????????????[0m
+[32m[1m?[0m Share your Cucumber Report with your team at [36m[1m[4mhttps://reports.cucumber.io[0m          [32m[1m?[0m
+[32m[1m?[0m Activate publishing with one of the following:                                    [32m[1m?[0m
+[32m[1m?[0m                                                                                   [32m[1m?[0m
+[32m[1m?[0m src/test/resources/cucumber.properties:          [36mcucumber.publish.enabled[0m=[36mtrue[0m    [32m[1m?[0m
+[32m[1m?[0m src/test/resources/junit-platform.properties:    [36mcucumber.publish.enabled[0m=[36mtrue[0m    [32m[1m?[0m
+[32m[1m?[0m Environment variable:                            [36mCUCUMBER_PUBLISH_ENABLED[0m=[36mtrue[0m    [32m[1m?[0m
+[32m[1m?[0m JUnit:                                           [36m@CucumberOptions[0m(publish = [36mtrue[0m) [32m[1m?[0m
+[32m[1m?[0m                                                                                   [32m[1m?[0m
+[32m[1m?[0m More information at [36mhttps://cucumber.io/docs/cucumber/environment-variables/[0m      [32m[1m?[0m
+[32m[1m?[0m                                                                                   [32m[1m?[0m
+[32m[1m?[0m Disable this message with one of the following:                                   [32m[1m?[0m
+[32m[1m?[0m                                                                                   [32m[1m?[0m
+[32m[1m?[0m src/test/resources/cucumber.properties:          [36mcucumber.publish.quiet[0m=[36mtrue[0m      [32m[1m?[0m
+[32m[1m?[0m src/test/resources/junit-platform.properties:    [36mcucumber.publish.quiet[0m=[36mtrue[0m      [32m[1m?[0m
+[32m[1m?????????????????????????????????????????????????????????????????????????????????????[0m
+
+
+# Created at 2022-08-27T22:52:41.381
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,TestSuite,null,null,null
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="fixtest.FixedOpsloginTest">
+        <methods>
+          <include name="login" invocation-numbers="0 1 2"/>
+          <include name="jobcount"/>
+          <include name="workmix_percentage"/>
+          <include name="grossprofit_percentage"/>
+          <include name="partscost"/>
+          <include name="partsmarkup"/>
+          <include name="partsale"/>
+        </methods>
+      </class> <!-- fixtest.FixedOpsloginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

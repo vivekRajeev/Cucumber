@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="fixtest.FixedOpsloginTest">
+        <methods>
+          <include name="jobcount"/>
+          <include name="workmix_percentage"/>
+          <include name="grossprofit_percentage"/>
+          <include name="partscost"/>
+          <include name="partsmarkup"/>
+          <include name="partsale"/>
+        </methods>
+      </class> <!-- fixtest.FixedOpsloginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
